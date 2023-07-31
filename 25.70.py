@@ -7,12 +7,12 @@ def divs(n):
         if len(d) > 3:
             break
     return sorted(d)
-a = []
-for i in range(2, 10001):
-    if sum(divs(i)[:-1]) == i:
-        a.append(i)
-        a.append(int(len(divs(i))-1))
+array_of_answer = []
+for number in range(2, 10001):
+    if sum(divs(number)[:-1]) == number:
+        a.append(number)
+        a.append(int(len(divs(number))-1))
         
-print(a)
+print(array_of_answer)
     
     
