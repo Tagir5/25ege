@@ -1,3 +1,4 @@
+#https://100points.ru/student/homework/25548/checked/7456604
 a = open('24.txt').read()
 w = 'RSQ'
 d = []
